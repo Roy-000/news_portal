@@ -1,0 +1,71 @@
+body{
+    background-image: url('images/Login_beckground.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+h2{
+    text-align: center;
+    margin: 10px;
+}
+
+form{
+    width: 500px;
+    padding: 15px;
+    border: 2px solid #a99999;;
+    background-color: hwb(210deg 62% 35%);
+}
+
+input{
+    display: block;
+    border: 2px;
+    width: 95%;
+    padding: 7px;
+    margin: 3px;
+}
+label{
+    color: black;
+    font-size: 15px;
+    padding: 8px;
+    margin: 5px;
+    padding-left: 0px;
+}
+button{
+    float: right ;
+    background-color: d#e7e7e7;
+
+}
+.error {
+    background: #f2dede;
+    color: #A94442;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin:  20px auto;
+}
+.success {
+background: #D4EDDA;
+color: #40754C;
+padding: 10px;
+width: 95%;
+border-radius: 5px;
+margin:  20px auto;
+
+}
+h1{
+    text-align: center;
+    color: #fff;
+
+}
+.ca{
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    color: #287ccc;
+}
+.ca:hover{
+    text-decoration: underline;
+}
